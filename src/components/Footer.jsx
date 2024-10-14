@@ -3,6 +3,7 @@ import { CiBookmark } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
 import { FaRegEnvelope } from "react-icons/fa";
 import { CiUser } from "react-icons/ci";
+import { Link } from "react-router-dom";
 import "./Footer.css"
 
 export const Footer = () => {
