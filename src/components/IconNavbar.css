@@ -1,15 +1,16 @@
 .navbar {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* gap: 5px; */
+  gap: 5px;
   margin-bottom: 60px;
   background-color: white;
-  width: 100%;
+  padding: 15px 10px 0 10px;
 }
 
 .icon-container {
   text-align: center;
-  /* width: 110px; */
+  width: 110px;
+  /* border: 1px solid black; */
 }
 
 .icon-container p {

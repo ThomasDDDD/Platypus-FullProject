@@ -1,4 +1,4 @@
-const apiUrl = "http://localhost:7000";
+const apiUrl = "http://localhost:7777";
 
 export const fetchData = async (endpoint) => {
   if (!endpoint && typeof endpoint !== "string") {

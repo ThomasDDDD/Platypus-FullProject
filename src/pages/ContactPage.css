@@ -1,0 +1,53 @@
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.line {
+  border: 1px solid black;
+  height: 1px;
+  width: 30%;
+}
+
+.contact-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-left: 40px;
+  width: 90%;
+  background-color: white;
+}
+
+.contact-form label {
+  color: #8b8b8b;
+}
+
+.contact-form input {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-right: 40px;
+}
+
+.contact-button {
+  padding: 15px 100px;
+  border-radius: 10px;
+}
+
+.sagthallo {
+  margin: 40px 0 60px 40px;
+}
+
+textarea {
+  border: none;
+  border-bottom: 1px solid black;
+}
