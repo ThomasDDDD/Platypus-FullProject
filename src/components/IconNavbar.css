@@ -1,10 +1,15 @@
 .navbar {
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* gap: 5px; */
+  margin-bottom: 60px;
+  background-color: white;
+  width: 100%;
 }
 
 .icon-container {
   text-align: center;
+  /* width: 110px; */
 }
 
 .icon-container p {
