@@ -1,0 +1,30 @@
+.categoryPage {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+}
+.categoryHeader {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  text-align: center;
+  font-size: clamp(0.8em, 3vw, 3em);
+}
+.categoryHeader a {
+  border: 1px solid purple;
+  width: 20%;
+  aspect-ratio: 1/1;
+}
+
+.productsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 1px solid red;
+  gap: 1vh;
+}
