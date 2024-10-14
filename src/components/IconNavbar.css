@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon-container {
+  text-align: center;
+}
+
+.icon-container p {
+  margin: 0;
+  color: #999999;
+}
+/* .icon-container:hover {
+  background-color: #303030;
+} */
+
+.icons {
+  width: 40px;
+  height: 40px;
+  background-color: #f4f4f4;
+  padding: 5px;
+  border-radius: 10px;
+  color: #999999;
+}

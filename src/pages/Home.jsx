@@ -1,10 +1,9 @@
-import "../pages/Home.css";
+import { IconNavBar } from "../components/IconNavBar.jsx";
 
 function Home() {
   return (
     <>
-      <h1>Home</h1>
-      <p>hier könnte Ihre Werbung stehen</p>
+      <IconNavBar />
     </>
   );
 }
