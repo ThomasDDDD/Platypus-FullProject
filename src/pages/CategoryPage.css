@@ -6,15 +6,27 @@
   align-items: center;
   padding: 5%;
 }
+.categoryPage h2 {
+  font-size: clamp(1.7rem, 3vw, 3em);
+  color: rgb(104, 104, 104);
+  text-transform: capitalize;
+  margin-bottom: 5%;
+}
 .categoryHeader {
   width: 100%;
   display: flex;
   justify-content: start;
   text-align: center;
-  font-size: clamp(0.8em, 3vw, 3em);
+  font-size: clamp(0.7em, 3vw, 3em);
+  color: rgb(104, 104, 104);
+  margin-bottom: 5%;
 }
+.categoryHeader span {
+  font-size: clamp(1.1em, 3vw, 3em);
+  color: rgb(70, 70, 70);
+}
+
 .categoryHeader a {
-  border: 1px solid purple;
   width: 20%;
   aspect-ratio: 1/1;
 }
@@ -25,6 +37,6 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  border: 1px solid red;
+
   gap: 1vh;
 }

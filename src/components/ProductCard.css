@@ -5,8 +5,7 @@ a {
 
 .product-Card {
   overflow: hidden;
-  border: 1px solid green;
-  aspect-ratio: 2/3.5;
+  aspect-ratio: 2/3.8;
 }
 .product-Card img {
   object-fit: cover;

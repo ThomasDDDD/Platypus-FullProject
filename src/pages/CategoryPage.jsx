@@ -5,6 +5,8 @@ import { NavLink, useParams } from "react-router-dom";
 import "../pages/CategoryPage.css";
 
 import { HiMagnifyingGlass } from "react-icons/hi2";
+import { IoCartOutline } from "react-icons/io5";
+import { IconNavBar } from "../components/IconNavBar";
 
 function CategoryPage() {
   const [productsData, setProductsData] = useState([]);
@@ -17,7 +19,7 @@ function CategoryPage() {
       .catch((e) => setError(JSON.stringify(e)));
   }, []);
 
-  console.log(productsData);
+  // console.log(productsData);
 
   return (
     <div className="categoryPage">
@@ -29,11 +31,16 @@ function CategoryPage() {
             <>
               <div className="categoryHeader">
                 <NavLink to="#">
-                  <HiMagnifyingGlass />
+                  <HiMagnifyingGlass className="icons" />
                 </NavLink>
-                <h1>Make home BEAUTIFUL</h1>
-                <NavLink to="#">icon</NavLink>
+                <h1>
+                  Make home <span>BEAUTIFUL</span>
+                </h1>
+                <NavLink to="#">
+                  <IoCartOutline className="icons" />
+                </NavLink>
               </div>
+              <IconNavBar />
               {category ? <h2>{category}</h2> : <h2>Products</h2>}
               <div className="productsContainer">
                 {productsData.map((product) => {
