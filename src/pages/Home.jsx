@@ -1,4 +1,5 @@
 import { IconNavBar } from "../components/IconNavBar.jsx";
+import { Footer } from "../components/Footer.jsx";
 import "./Home.css";
 
 function Home() {
@@ -11,6 +12,7 @@ function Home() {
         <button>Get Started</button>
       </main>
       <IconNavBar />
+      <Footer />
     </>
   );
 }

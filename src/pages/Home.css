@@ -1,5 +1,7 @@
 body {
+  width: 100vw;
   background-image: url("https://plus.unsplash.com/premium_photo-1682716387450-3c718483edb3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c29mYSUyMGxhbXBzfGVufDB8fDB8fHww");
+  background-size: contain;
 }
 
 main {
@@ -7,13 +9,15 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+h2, h1{
   margin-left: 20px;
 }
 
 article {
   width: 50%;
   background-color: #f4f4f456;
-  margin-left: 30px;
+  margin-left: 40px;
   padding: 0 5px;
 }
 
@@ -25,4 +29,9 @@ button {
   margin-top: 100px;
   font-size: 1.4rem;
   padding: 10px 5px;
+  border: none;
+}
+
+a {
+  text-decoration: none;
 }

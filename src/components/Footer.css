@@ -1,0 +1,16 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  padding: 7px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icons-footer {
+  width: 25px;
+  height: 25px;
+  padding: 5px;
+}
