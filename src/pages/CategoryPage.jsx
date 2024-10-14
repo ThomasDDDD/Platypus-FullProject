@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { fetchData } from "../utils/fetchData";
-import ProductCard from "../compnents/ProductCard";
+import ProductCard from "../components/ProductCard";
 import { NavLink, useParams } from "react-router-dom";
 import "../pages/CategoryPage.css";
 
