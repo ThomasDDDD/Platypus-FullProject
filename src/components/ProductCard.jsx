@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import "../compnents/ProductCard.css";
+import "../components/ProductCard.css";
 
 function ProductCard({ product }) {
   return (
